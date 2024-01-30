@@ -163,3 +163,10 @@ Import your secrets from your .env file to your deployed app:
 ```bash
 fly secrets import < .env
 ```
+
+# Lessons Learned
+
+* Training the AI is challenging. It would be a major value add if Twilio could offer a connector to Open AI, similar to Google Dialogflow, to reduce complexity for developers.
+* Flex Unify is time consuming to configure and current functionality is more easily achieved via calling the Segment APIs directly.
+* It would be helpful to have an easier way to call Studio from a Flex Plugin.
+* The ability to surface Segment data via a Studio widget would save developers time.
